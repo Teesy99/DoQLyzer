@@ -1,4 +1,4 @@
-# DoHlyzer
+# DoQlyzer
 Set of tools to capture HTTPS traffic, extract statistical and time-series features from it, and analyze them with 
 a focus on detecting and characterizing DoH (DNS-over-HTTPS) traffic. 
 
