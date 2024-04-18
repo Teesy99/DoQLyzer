@@ -14,9 +14,9 @@ def create_sniffer(input_file, input_interface, output_mode, output_file):
     NewFlowSession = generate_session_class(output_mode, output_file)
 
     if input_file is not None:
-        return AsyncSniffer(offline=input_file, filter='tcp port 443', prn=None, session=NewFlowSession, store=False)
+        return AsyncSniffer(offline=input_file, filter='udp port 784', prn=None, session=NewFlowSession, store=False)
     else:
-        return AsyncSniffer(iface=input_interface, filter='tcp port 443', prn=None,
+        return AsyncSniffer(iface=input_interface, filter='udp port 784', prn=None,
                             session=NewFlowSession, store=False)
 
 

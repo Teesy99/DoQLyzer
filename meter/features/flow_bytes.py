@@ -1,4 +1,4 @@
-from scapy.layers.inet import IP, TCP
+from scapy.layers.inet import IP, TCP, UDP
 from scapy.layers.l2 import Ether
 
 from meter.features.context.packet_direction import PacketDirection
